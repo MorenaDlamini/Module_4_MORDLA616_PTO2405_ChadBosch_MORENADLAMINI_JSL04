@@ -20,9 +20,10 @@ if (flavorType === "Regular") {
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
-let cansLeft = 3; // Any number of cans
-console.log(``);
+let cansLeft = 3; // Replace with the actual number of cans left
 
+let message = (cansLeft < 5) ? "Time to restock!" : "We're stocked!";
+console.log(message);
 
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
